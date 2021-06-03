@@ -1,0 +1,135 @@
+#topH1 {
+    text-align: center;
+    margin: 100px auto 30px auto;
+    color: teal;
+    text-decoration: underline;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    width: 75%;
+}
+
+#sectionFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.centerImage {
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hrClass {
+    display: block;
+    width: 80%;
+}
+
+.sectionR {
+    text-align: center;
+}
+
+.sectionR > h2 {
+    color: #2f6ca5;
+    font-size: 50px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.sectionR > p {
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.9em;
+    color: #999999;
+    width: 80%;
+    margin: 0 auto;
+}
+
+p.classP {
+    margin: 50px auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+footer > table {
+    display: inline-flex;
+    flex-direction: row;
+    width: 40%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 15px;
+}
+
+footer > table > thead {
+    background-color: #4c80c4;
+    color: white;
+    width: 100%;
+    font-size: 25px;
+}
+
+footer > table > thead > tr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+footer > table > tbody {
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    transition: box-shadow ease-in-out 150ms;
+}
+
+footer > table > tbody > tr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+footer > table > tbody > tr > td > button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer > table > tbody:hover {
+    box-shadow: 0 8px 12px 0 #00000033 
+}
+
+@media (max-width: 1075px){
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    footer > table {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 15px auto;
+        min-width: 100px;
+    }
+}
